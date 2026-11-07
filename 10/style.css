@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: red;
+    color: aliceblue;
+    /*flex-direction: column;*/
+    display: flex;
+    position: relative;/*  მშობელშ ჩასაკეტად*/
+    margin-top: 90px;
+    z-index: 1;
+
+
+}
+.box{
+    border-radius: 50%;
+    width: 50px;
+    height: 50%;
+    background-color: greenyellow;
+    /*align-self: end;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    /*z-index: 0;*/
+    /* როდესაც წერია top ვერ კითხულობს  butoms ,  ან პირიქით , ბოლო რომელიც წერია იმას აღიქვამს კოდი.  იგივეა  left right ზეც*/
+}
+.box2 {
+    width: 240px;
+    height: 50px;
+    background-color: darkmagenta;
+    position: absolute;
+    top: 150px;
+}
+.box3 {
+    width: 240px;
+    height: 50px;
+    background-color: rgb(38, 62, 169);
+    position: absolute;
+    top: 200px;
+    z-index: 2;
+}
+.box4 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(181, 210, 16);
+    position: absolute;
+    top: 200px;
+    z-index: 3;
+}
+header{
+    width: 100%;
+    background-color: red;
+    color: black;
+    padding: 20px;
+    position: fixed;
+    top: 60px;/* chats botoms*/
+    left: 0;
+    z-index: 10;
+
+
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+
+}
