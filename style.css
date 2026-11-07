@@ -8,8 +8,8 @@ body{
 }
 .img { 
     position: relative;
-    width: 1000px;
-    height: 400px;
+    width: 800px;
+    height: 200px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -20,10 +20,10 @@ body{
 .title
 {
     position:absolute;
-    right:-450px;
+    right:-150px;
     top:100px;
-    width:400px;
-    height: 400px;
+    width:100px;
+    height: 100px;
     background-color:#eee7e7;
     padding:35px;
     border:8px solid #f2f2f2;
