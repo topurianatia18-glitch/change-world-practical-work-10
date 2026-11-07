@@ -8,22 +8,22 @@ body{
 }
 .img { 
     position: relative;
-    width: 1200px;
-    height: 600px;
+    width: 1000px;
+    height: 400px;
     background-color: white;
     display: flex;
     flex-direction: column;
-    margin: 50px;
-    padding: 50px;
+    margin: 30px;
+    padding: 30px;
     
 }
 .title
 {
     position:absolute;
-    right:-550px;
-    top:180px;
-    width:700px;
-    height: 700px;
+    right:-450px;
+    top:100px;
+    width:400px;
+    height: 400px;
     background-color:#eee7e7;
     padding:35px;
     border:8px solid #f2f2f2;
@@ -48,7 +48,7 @@ ul {
 h1{
     font-size:70px;
     line-height:1.05;
-    font-weight:500 px;
+    font-weight:300 px;
 }
 .icons {
     
@@ -70,7 +70,7 @@ h1{
    position: absolute;
     right: 30px;
     bottom: 30px;
-    width: 200px;
+    width: 100px;
     height: 50px;
     background: #222;
     color: #fff;
