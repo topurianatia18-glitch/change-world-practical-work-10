@@ -20,9 +20,9 @@ body{
 .title
 {
     position:absolute;
-    right:-150px;
-    top:50px;
-    width:300px;
+    right:-250px;
+    top:100px;
+    width:400px;
     height: 400px;
     background-color:#eee7e7;
     padding:35px;
@@ -46,7 +46,7 @@ ul {
 
 }
 h1{
-    font-size:30px;
+    font-size:20px;
     line-height:1.05;
     font-weight:300 px;
 }
